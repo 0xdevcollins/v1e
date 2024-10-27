@@ -61,7 +61,7 @@ export default function AudiencePage() {
       variants={containerVariants}
     >
       <h1 className="text-2xl font-bold mb-6">Contact</h1>
-      
+
       {contacts.length > 0 ? (
         <>
           <div className="flex justify-between items-center mb-4">
@@ -121,7 +121,7 @@ export default function AudiencePage() {
           transition={{ duration: 0.5 }}
         >
           <div className="bg-white rounded-2xl p-8 mx-auto">
-            <Rocket  />
+            <Rocket />
             <h2 className="text-[#0D0F56] text-3xl font-semibold mb-4">
               Grow your Audience
             </h2>
